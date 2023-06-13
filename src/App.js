@@ -1,4 +1,3 @@
-import './Generic/reset.css';
 import './App.css';
 
 function App() {
