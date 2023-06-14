@@ -1,10 +1,9 @@
-import './App.css';
+import React from 'react';
+import Sobre from './objects/Sobre';
 
 function App() {
   return (
-    <div className="App">
-      <a href="#to-do">sobre</a>
-    </div>
+    <Sobre />
   );
 }
 
