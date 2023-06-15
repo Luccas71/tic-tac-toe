@@ -1,0 +1,16 @@
+.app {
+    text-align: center;
+} 
+
+.app > .card {
+    display: inline-block;
+    width: 90vw;
+    height: 90vw;
+}
+
+.app > .header {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 85px;
+}

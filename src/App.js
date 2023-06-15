@@ -1,15 +1,14 @@
-import React from 'react';
-import Logo from './objects/Logo';
-import Sobre from './objects/Sobre';
-import Menu from './objects/Menu';
+import React from "react";
+import './App.css'
+import Header from "./components/Header";
+import Hashtag from "./components/Hashtag";
 
 function App() {
   return (
-    <>
-    <Logo />
-    <Sobre />
-    <Menu />
-    </>
+    <main className="app">
+      <Header />
+      <Hashtag />
+    </main>
   );
 }
 

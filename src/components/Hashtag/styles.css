@@ -1,0 +1,20 @@
+.card {
+    padding: 15px;
+}
+
+.hashtag {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 3px;
+    background-color: var(--color-fifth);
+}
+
+.item {
+    background-color: var(--color-zero);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
